@@ -1,0 +1,63 @@
+body {
+	background-color: #05075E;
+}
+
+.registro-form {
+	padding: 30px;
+
+}
+
+.registro-form h2{
+	color: white;
+}
+
+.input-field label {
+	color: white;	
+}
+
+.input-field input[type="text"],
+.input-field input[type="password"],
+.input-field input[type="email"] {
+	border-bottom: 1px solid white;
+	box-shadow: 0 1px 0 0 white;
+}
+
+.input-field input[type="text"]:focus + label,
+.input-field input[type="password"]:focus + label,
+.input-field input[type="email"]:focus + label {
+	color: #0D069A;
+
+}
+
+.input-field input[type="text"]:focus,
+.input-field input[type="password"]:focus,
+.input-field input[type="email"]:focus {
+	border-bottom: 1px solid #0D069A;
+	box-shadow: 0 1px 0 0 #0D069A;
+}
+
+.input-field .prefix{
+	color: white;
+}
+
+.input-field .prefix.active {
+		color: #1be91b;
+
+}
+.btn{
+	background-color: #1826E5;
+}
+
+.brand-logo{
+	margin-left: 10px;
+}
+.option-1{
+	color: white;
+}
+.table-1{
+	background-color: #2871FF;
+}
+.table-2{
+	background-color: white;
+}
+
